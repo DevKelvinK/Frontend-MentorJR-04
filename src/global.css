@@ -1,0 +1,60 @@
+:root {
+  /* Cores (Colors) */
+
+  --Pink: #ff52bf;
+  --Pink-hover: #FF9BDB;
+  --VeryPaleCyan: #ebfbff;
+  --VeryDarkCyan: #00252e;
+  --GrayishBlue: #808d99;
+  --BoxShadow: #808e934d;
+
+  /* Text */
+
+  --font-open-sans: "Open Sans", sans-serif;
+  --font-poppins: "Poppins", sans-serif;
+
+  --h1: 600 2.5rem/150% var(--font-poppins); /* 40px */
+  --h2: 600 1.75rem/150% var(--font-poppins); /* 28px */
+  
+  --anchor: 700 0.875rem var(--font-open-sans); /* 14px */
+  --paragraph: 1.125rem/150% var(--font-open-sans); /* 18px */
+}
+
+* {
+  box-sizing: border-box;
+  outline: transparent;
+
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: var(--VeryDarkCyan);
+  background-color: #fff;
+
+  font: var(--paragraph);
+}
+
+#root {
+  display: contents;
+}
+
+a {
+  text-decoration: none;
+
+  font: var(--anchor);
+
+  color: inherit;
+}
+
+h2 {
+  font: var(--h2);
+}
