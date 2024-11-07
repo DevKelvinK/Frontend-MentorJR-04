@@ -1,0 +1,77 @@
+.header {
+  padding: 3.5rem 5rem;
+
+  background: url(../assets/bg-hero-desktop.svg) center/cover var(--VeryPaleCyan) no-repeat;
+
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    gap: 1.72rem;
+
+    .logo {
+      width: 200px;
+    }
+
+    a {
+      display: inline-block;
+
+      padding: 1rem 4rem;
+      border-radius: 24px;
+      box-shadow: 0 0 10px var(--BoxShadow);
+
+      background-color: #fff;
+
+      transition: .3s;
+
+      &:hover,
+      &:focus {
+        color: var(--GrayishBlue);
+      }
+    }
+  }
+
+  .sectionHero {
+    display: flex;
+
+    margin-top: 4.5rem;
+    gap: 80px;
+
+    > div {
+      max-width: 516px;
+      margin-block: auto;
+
+      h1 {
+        margin-bottom: 3rem;
+
+        font: var(--h1);
+      }
+
+      a {
+        display: inline-block;
+
+        padding: 1.25rem 4.5rem;
+        border-radius: 28px;
+        margin-top: 2rem;
+
+        color: #fff;
+        background-color: var(--Pink);
+
+        transition: .3s;
+
+        &:hover,
+        &:focus {
+          background-color: var(--Pink-hover);
+        }
+      }
+    }
+
+    img {
+      object-fit: contain;
+
+      max-width: 680px;
+    }
+  }
+}
+
