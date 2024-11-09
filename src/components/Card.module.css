@@ -41,3 +41,31 @@
     padding: 2.5rem 2.5rem 2.5rem 4rem;
   }
 }
+
+/* Mobile Responsive */
+@media screen and (max-width:750px) {
+  .card {
+    flex-direction: column-reverse;
+    text-align: center;
+
+    height: auto;
+    padding: 3.5rem 2.5rem 2rem;
+
+    div {
+      width: 100%;
+
+      p {
+        max-width: 255px;
+        margin-inline: auto;
+
+        font-size: 0.875rem;
+      }
+    }
+
+    img {
+      width: 100%;
+      max-width: 230px;
+      margin-inline: auto;
+    }
+  }
+}

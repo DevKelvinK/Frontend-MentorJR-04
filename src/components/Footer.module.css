@@ -160,3 +160,52 @@
     }
   }
 }
+
+/* Mobile Responsive */
+@media screen and (max-width:750px) {
+  .footer {
+    padding: 9rem 1.25rem 2.75rem;
+
+    .logoWhite {
+      width: 168px;
+      margin-bottom: 1.75rem;
+    }
+
+    .footerContent {
+      display: flex;
+      justify-content: center;
+
+      gap: 3.5rem; 
+
+      > div {
+        flex-direction: column;
+
+        max-width: 375px;
+      }
+
+      nav {
+        margin-top: 0;
+      }
+
+      .locationAndContacts {
+        width: 100%;
+        
+        p {
+          max-width: 294px;
+        }
+      }
+
+      .columnsNav {
+        flex-direction: column;
+      
+        gap: 1.5rem;
+      }
+
+      .socialMediaAndCopy {
+        p {
+          font-size: 0.75rem;
+        }
+      }
+    }
+  }
+}
