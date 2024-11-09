@@ -47,3 +47,16 @@
     }
   }
 }
+
+/* Tablet Responsive */
+@media screen and (max-width:1300px) {
+  .main {
+    padding: 6.25rem 3.25rem 12.5rem;
+
+    .containerCTA {
+      .cta {
+        max-width: 730px;
+      }
+    }
+  }
+}

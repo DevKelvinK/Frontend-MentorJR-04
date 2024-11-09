@@ -122,3 +122,41 @@
     }
   }
 }
+
+/* Tablet Responsive */
+@media screen and (max-width:1300px) {
+  .footer {
+    padding: 12rem 4rem 3.75rem;
+
+    .footerContent {
+      flex-wrap: wrap;
+      column-gap: 4rem;
+      row-gap: 2.5rem;
+
+      > div {
+        justify-content: center;
+        
+        width: 100%;
+        gap: 4rem;
+      }
+
+      .columnsNav {
+        gap: 2rem;
+      }
+
+      .socialMediaAndCopy {
+        margin-inline: auto;
+
+        nav {
+          justify-content: center;
+
+          margin-block: 0 1.5rem ;
+        }
+
+        p {
+          text-align: center;
+        }
+      }
+    }
+  }
+}

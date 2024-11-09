@@ -58,3 +58,17 @@ a {
 h2 {
   font: var(--h2);
 }
+
+/* Mobile Responsive */
+
+@media screen and (max-width:750px) {
+  :root {
+    /* Text */
+
+    --h1: 600 1.5rem/150% var(--font-poppins); /* 24px */
+    --h2: 600 1.25rem/150% var(--font-poppins); /* 20px */
+    
+    --anchor: 700 0.75rem var(--font-open-sans); /* 12px */
+    --paragraph: 1rem/150% var(--font-open-sans); /* 16px */
+  }
+}

@@ -34,3 +34,10 @@
     width: 46%;
   }
 }
+
+/* Tablet Responsive */
+@media screen and (max-width:1300px) {
+  .card {
+    padding: 2.5rem 2.5rem 2.5rem 4rem;
+  }
+}
